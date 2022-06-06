@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyIntentService">
+        <service
+            android:name=".ToastIntentService"
+            android:exported="false"></service>
+        <service
+            android:name=".ToastService"
+            android:enabled="true"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

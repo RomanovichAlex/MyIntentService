@@ -9,9 +9,40 @@
 
 
     <Button
-        android:id="@+id/toast_service_button"
+        android:id="@+id/start_toast_service_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Toast Service \'Ololo\'" />
+        android:text="Start Toast Service" />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/stop_toast_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Toast Service" />
+
+    <Button
+        android:id="@+id/bind_toast_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Toast Service" />
+
+    <Button
+        android:id="@+id/unbind_toast_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Toast Service" />
+
+    <Button
+        android:id="@+id/foreground_toast_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Foreground Toast Service" />
+
+    <Button
+        android:id="@+id/toast_intent_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Intent Service" />
+
+
+</LinearLayout>
